@@ -1,0 +1,17 @@
+package game.resources;
+
+public class Food extends Resource {
+
+	public Food() {
+
+	}
+
+	public Food(int quantity) {
+		super(quantity);
+	}
+
+	@Override public String getType() {
+		return "Food";
+	}
+
+}
